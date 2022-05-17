@@ -36,7 +36,7 @@ header .opcoes {
 
 }
 
-.opcoes label{
+.opcoes label {
     font-size: 1.8rem;
 
 }
@@ -82,7 +82,7 @@ main {
     margin-bottom: 2.5rem;
 }
 
-path{
+path {
     fill: #8a8d9b;
 }
 
@@ -99,8 +99,13 @@ path{
 
 
 .artigo__curtir {
-    height: 1.9rem;
-    width: 1.9rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.artigo__curtir path:hover {
+    fill: rgb(190, 36, 36);
+    transition: all .25s ease-in-out;
 }
 
 .artigo__titulo {
